@@ -7,7 +7,7 @@ const fetchVideoInfo = require('youtube-info');
 const YouTube = require('simple-youtube-api');
 const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 const queue = new Map();
-const prefix = `1`
+const prefix = `2`
 const devs = ["530062292969062412","508574921010577409"]
 const ms = require("ms")
 console.log(`bot online`);
@@ -313,7 +313,7 @@ function play(guild, song) {
 
 
 client.on('ready',async () => {
-  client.channels.find(ch => ch.id === "568125147219755019" && ch.type === 'voice').join();
+  client.channels.find(ch => ch.id === "568138884647747587" && ch.type === 'voice').join();
 });
 
 
