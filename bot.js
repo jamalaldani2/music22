@@ -7,7 +7,7 @@ const fetchVideoInfo = require('youtube-info');
 const YouTube = require('simple-youtube-api');
 const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 const queue = new Map();
-const prefix = `2`
+const prefix = `1`
 const devs = ["530062292969062412","508574921010577409"]
 const ms = require("ms")
 console.log(`bot online`);
